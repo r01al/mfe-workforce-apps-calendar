@@ -44,7 +44,7 @@ export default function Calendar() {
 		<section>
 			<div className="page-heading calendar-heading">
 				<div>
-					<h1>Team calendar</h1>
+					<h1>Team calendar for all</h1>
 					<p>A clear hour-by-hour view of weekly coverage.</p>
 				</div>
 				<div className="calendar-toolbar">
