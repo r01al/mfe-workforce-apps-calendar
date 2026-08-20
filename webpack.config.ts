@@ -6,4 +6,8 @@ export default (environment: Record<string, unknown>, argv: BuildArguments) => c
 	appDirectory,
 	port: 3004,
 	exposes: { './Calendar': './src/Calendar' },
+	standalone: {
+		entry: './src/dev.ts',
+		title: 'Workforce Calendar',
+	},
 }, environment, argv);

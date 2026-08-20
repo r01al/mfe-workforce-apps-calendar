@@ -9,3 +9,7 @@ npm run typecheck
 npm run build
 npm start
 ```
+
+`npm run dev` runs Calendar as a standalone application with local development
+data. Open `http://localhost:3004/calendar`; the shell and other remotes are not
+required.
